@@ -195,7 +195,7 @@ $RECYCLE.BIN/
 
 # Output folder used by Webpack or other FE stuff
 **/node_modules/*
-**/wwwroot/*
+
 
 # SpecFlow specific
 *.feature.cs
@@ -212,6 +212,8 @@ $RECYCLE.BIN/
 # Terraform
 .terraform/
 *.tfstate
+*.lock.hcl
+*.tfstate.backup
 
 dynamodb-local/
 
